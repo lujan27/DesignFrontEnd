@@ -271,6 +271,11 @@ p {
     transition: 0.5s;
 }
 
+#section-cards{
+    height: 200px;
+    padding-top: 1cm;
+}
+
 /* END INDEX */
 
 /* Footer */
