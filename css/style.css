@@ -192,6 +192,7 @@ p {
 }
 
 .dropdown-menu .dropdown-item {
+    width: auto;
     color: #FFFEED;
     margin: 10px;
     transition: 0.5s;

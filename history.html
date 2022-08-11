@@ -30,53 +30,147 @@
 
     <!-- NavBar -->
     <nav class="navbar navbar-expand-lg text-center" id="Nav">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="index.html"><img src="img/logo-white.png" id="logoNav" alt=""></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <a class="navbar-brand pb-2" href="index.html"><img src="img/logo-white.png" id="logoNav" alt=""></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html"><i class="fa-solid fa-house-chimney"></i> Inicio <span class="sr-only">(current)</span></a>
-            </li>
-            
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                <i class="fa-solid fa-building"></i> Plantel
-              </a>
-              <ul class="dropdown-menu">
-                <li>
-                  <a class="dropdown-item" href="history.html"><i class="fa-solid fa-book-bookmark"></i> Origenes</a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="us.html"><i class="fa-solid fa-people-line"></i> Nosotros</a>
-                </liclass=>
-                <li>
-                  <a class="dropdown-item" href="#"><i class="fa-solid fa-file-lines"></i> Información</a>
-                </li>
-              </ul>
-            </li>
-            
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                <i class="fa-solid fa-hand-holding-hand"></i> Servicios
-              </a>
-              <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="https://sigad.cetis80.edu.mx/"><i class="fa-solid fa-people-line"></i> Portal SIGAD</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
-              </ul>
-            </li>
-            
-            <li class="nav-item">
-              <a class="nav-link" href="contactus.html"><i class="fa-solid fa-address-book"></i> Contactanos</a>
-            </li>
-            
+              <li class="nav-item active">
+                <a class="nav-link" href="index.html"><i class="fa-solid fa-house-chimney"></i> Inicio <span class="sr-only">(current)</span></a>
+              </li>              
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fas fa-graduation-cap"></i> Especialidades </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li>
+                    <a class="dropdown-item" href="#"> Especialidad 1 </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"> Especialidad 2 </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"> Especialidad 3 </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="#"> Especialidad 4 </a>
+                  </li>
+                  
+                </ul>
+              </li>
+              <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa-solid fa-building"></i> Plantel </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <li>
+                      <a class="dropdown-item" href="#"><i class="fas fa-house-user"></i> Bienvenidos</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="history.html"><i class="fa-solid fa-book-bookmark"></i> Origenes</a>
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="us.html"><i class="fa-solid fa-people-line"></i> Nosotros</a>
+                    </li>
+                    
+                      <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#"><i class="fas fa-briefcase"></i> Departamentos</a>
+                          <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#">Administración</a></li>
+                              <li><a class="dropdown-item" href="#">Docentes</a></li>
+                              <li><a class="dropdown-item" href="#">Escolares</a></li>
+                              <li><a class="dropdown-item" href="#">Planeacion</a></li>
+                              <li><a class="dropdown-item" href="#">Vinculación</a></li>
+                              <!-- <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">Submenu 1</a>
+                                  <ul class="dropdown-menu">
+                                      <li><a class="dropdown-item" href="#">Subsubmenu1</a></li>
+                                      <li><a class="dropdown-item" href="#">Subsubmenu1</a></li>
+                                  </ul>
+                              </li>
+                              <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="#">Submenu 2</a>
+                                  <ul class="dropdown-menu">
+                                      <li><a class="dropdown-item" href="#">Subsubmenu2</a></li>
+                                      <li><a class="dropdown-item" href="#">Subsubmenu2</a></li>
+                                  </ul>
+                              </li> -->
+                          </ul>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#"><i class="fas fa-sign-in"></i> Intranet</a>
+                      </li>
+                  </ul>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <i class="fa-solid fa-hand-holding-hand"></i> Servicios
+                </a>
+                <ul class="dropdown-menu">
+                  <li class="dropdown-submenu">
+                    <a class="dropdown-item dropdown-toggle" href="#"><i class="fas fa-users"></i> Alumnos</a>
+                    <ul class="dropdown-menu">
+                      <li class="dropdown-submenu">
+                        <a class="dropdown-item dropdown-toggle" href="#">Control Escolar</a>
+                        <ul class="dropdown-menu">
+                          <li>
+                            <a class="dropdown-item" href="#">Inscripciones</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">Calendario Escolar</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="#">Horarios</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="dropdown-submenu">
+                    <a class="dropdown-item dropdown-toggle" href="#"><i class="fas fa-user-friends"></i> Docentes</a>
+                    <ul class="dropdown-menu">
+                      <li class="dropdown-submenu">
+                        <a class="dropdown-item dropdown-toggle" href="#">SEP</a>
+                        <ul class="dropdown-menu">
+                          <li>
+                            <a class="dropdown-item" href="https://declaracion.declaranet.gob.mx/">Declaranet</a>
+                          </li>
+                          <li>
+                            <a class="dropdown-item" href="http://www.siseems.sems.gob.mx/produccion/">SISEEMS</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="dropdown-submenu">
+                        <a class="dropdown-item dropdown-toggle" href="#">SEMS</a>
+                        <ul class="dropdown-menu">
+                          <li>
+                            <a class="dropdown-item" href="https://portalautoservicios-sems.sep.gob.mx/login.jsp">Autoservicios SEP</a>
+                          </li>
+                          <li>
+                            <a class="dropdown-item" href="http://cosfac.sems.gob.mx/web/pa_ProgramasEstudioBTBG.php">COSFAC</a>
+                          </li>
+                          <li>
+                            <a class="dropdown-item" href="http://registro.desarrolloprofesionaldocente.sems.gob.mx/">Desarrollo Profesional</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="dropdown-submenu">
+                        <a class="dropdown-item dropdown-toggle" href="#">DGETI</a>
+                        <ul class="dropdown-menu">
+                          <li>
+                            <a class="dropdown-item" href="http://www.planeaciondidactica.sems.gob.mx/login">Planeacion Didactica</a>
+                          </li>
+                          <li>
+                            <a class="dropdown-item" href="#">Promocion Docente</a>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li><a class="dropdown-item" href="https://sigad.cetis80.edu.mx/"><i class="fa-solid fa-people-line"></i> Portal SIGAD</a></li>
+                </ul>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link" href="contactus.html"><i class="fa-solid fa-address-book"></i> Contactanos</a>
+              </li>
           </ul>
-        </div>
       </div>
-    </nav>
+  </nav>
 
     <div class="container-fluid" style="padding-top: 4cm">
       <div class="row">
